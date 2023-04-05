@@ -1,0 +1,11 @@
+<div class="sidebar">
+  <div class="sidebar__logo"></div>
+  <ul class="sidebar__items">
+    <li class="sidebar__item" *ngFor="let item of sidebarItems">
+      <tw-sidebar-item
+        [label]="item.label"
+        [icon]="item.icon"
+        [path]="item.path"></tw-sidebar-item>
+    </li>
+  </ul>
+</div>

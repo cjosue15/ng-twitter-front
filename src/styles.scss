@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --background-body: rgb(0, 0, 0);
+  --color-text: #e7e9ea;
+}
+
+body {
+  background: var(--background-body);
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text);
+}

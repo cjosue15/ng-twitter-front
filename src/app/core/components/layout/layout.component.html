@@ -1,8 +1,11 @@
-<div>
+<div class="layout">
   <div>
-    <tw-header></tw-header>
-  </div>  
+    <tw-sidebar></tw-sidebar>
+  </div>
   <main>
-    <router-outlet></router-outlet>
+    <div>
+      <tw-header></tw-header>
+    </div>
+    <ng-content></ng-content>
   </main>
 </div>
