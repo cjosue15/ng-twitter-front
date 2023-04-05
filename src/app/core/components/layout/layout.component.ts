@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { TwHeaderComponent } from '../header/header.component';
 
@@ -8,8 +8,4 @@ import { TwHeaderComponent } from '../header/header.component';
   selector: 'tw-layout',
   templateUrl: 'layout.component.html',
 })
-export class TwLayoutComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit() {}
-}
+export class TwLayoutComponent {}
